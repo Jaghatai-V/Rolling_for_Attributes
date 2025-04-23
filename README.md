@@ -12,18 +12,12 @@ Summing the remaining three dice.
 
 Repeating this process six times to generate six stats.
 
-Example Output
-bash
-Copy
-Edit
+Example Output:
 14
 [15, 12, 13, 10, 16, 11]
-The first number is a single stat roll, and the list is a complete set of six attribute scores.
 
-🧠 Code Overview
-python
-Copy
-Edit
+🧠 Code Overview:
+
 import random as ran
 
 def roll_stat():
@@ -36,20 +30,17 @@ print(stat_roll)
 
 attribute_rolls = list(map(lambda dice: roll_stat(), range(6)))
 print(attribute_rolls)
+
 🚀 How to Use
 Copy the code into a .py file, e.g. stat_roller.py.
 
 Run it using Python 3:
 
-bash
-Copy
-Edit
 python stat_roller.py
-Use the generated stats to build your D&D character!
+Use the generated stats to build your D&D character quick!
 
 📦 Requirements
 Python 3.x
-
 No external libraries required.
 
 📝 License
